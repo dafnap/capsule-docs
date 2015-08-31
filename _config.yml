@@ -3,7 +3,7 @@ highlighter: pygments
 lsi: false
 safe: false
 exclude: [s3_website.yml, push, copy_blog]
-url: http://capsule.io
+url: 
 baseurl: /
 
 kramdown:

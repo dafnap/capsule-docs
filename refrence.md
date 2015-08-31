@@ -78,6 +78,7 @@ Capsule defines these system properties in the capsule (launcher) process (to be
 * `CAPSULE_CACHE_NAME`: sets the *name* of the root of Capsule's cache in the default location (`~` on Unix, `%LOCALAPPDATA%` on Windows)
 * `CAPSULE_CACHE_DIR`: sets the full path of the Capsule's cache
 
+
 Capsule defines these variables in the application's environment:
 
 * `CAPSULE_APP`: the app ID
