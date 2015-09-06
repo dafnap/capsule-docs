@@ -243,5 +243,10 @@ $(document).ready(function() {
 	}
 	//$(window).load(function(){ $('#docs-cont .sidebar').height( $('#docs-cont .main').outerHeight() ); });
 	
+$('iframe').load( function() {
+    $('iframe').contents().find("head")
+      .append($("<style type='text/css'>  .my-class{display:none;}  </style>"));
+});
+	
 				
 });

@@ -16,6 +16,7 @@ strong{ font-weight:bold;}
 img{ vertical-align:top;}
 .cl{ clear:both; font-size:0;}
 
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
@@ -31,7 +32,6 @@ a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: bold; }
-blockquote { margin: 1em 40px; }
 dfn { font-style: italic; }
 hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
 ins { background: #ff9; color: #000; text-decoration: none; }
@@ -256,7 +256,7 @@ header { background:#222; width:100%; height:90px; position:fixed; top:0; left:0
 	 -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease;-ms-transition: all 300ms ease;-o-transition: all 300ms ease;transition: all 300ms ease; }
 		.fixed-head #logo2 { width:206px; height:40px; margin-top:8px; background-repeat:no-repeat; }
 
-	iframe { height: 28px; width: 142px; margin-top: 35px; margin-left: 135px }
+	iframe { height: 28px; width: 142px; margin-top: 35px; margin-left: 135px;  }
 	#github { height: 28px; width: 142px; margin-top: 35px; margin-left: 135px }
 	header ul { float:right; margin-top:44px; }
 		.fixed-head header ul { margin-top:17px; }
@@ -295,7 +295,7 @@ header { background:#222; width:100%; height:90px; position:fixed; top:0; left:0
 	.mobile #section1, .mobile #section1 .container { height:700px; }
 	.wrapit { height:800px; width:1000px; position:absolute; bottom:45px; left:0; }
 	.fixed .wrapit { position:fixed; top:90px; left:50%; margin-left:-500px; }
-	
+
 
 /* Section3 */
 #section3 { padding:100px 0 0px; background-color: #cbbdad; }
@@ -364,6 +364,9 @@ header { background:#222; width:100%; height:90px; position:fixed; top:0; left:0
 		#intro p { font-size:16px; margin-bottom:15px; color:#222;}
 		#intro li {font-size:16px; margin-bottom:15px; color:#222;}
 
+/* Section10*/
+#section10 { padding:10px 0 0px; width:1400px ; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; }
+	#quotes {margin-left: 80px; width: 1000px; padding-top: 10px}
 
 /* ==========================================================================
    Inner page
@@ -399,81 +402,6 @@ header { background:#222; width:100%; height:90px; position:fixed; top:0; left:0
 		.single .btn-newer { text-indent:15px; margin-right:10px; }
 		.single .btn-older { background:#fff url(../images/arrows.png) 95px -21px no-repeat; text-indent:-15px; }
 	.addthis_toolbox { float:right; margin-top:5px; width:255px; position:relative; margin-right:-30px; }
-
-
-/* ==========================================================================
-   Documentation Page
-   ========================================================================== */
-#docs-cont { background:url(../images/bg-docs.png) repeat-y; position:relative; min-height:700px; margin-top:27px; }
-.sidebar { width:245px; position:absolute; top:0; left:0; height:100%; }
-	.side-title { padding-left:53px; height:68px; background:url(../images/icon-title.png) no-repeat; width:245px; float:left; }
-		.side-title h2 { background:#a4a4a4; line-height:68px; text-align:center; font-weight:bold; font-size:18px; text-transform:uppercase; }
-	#docs-sidemenu { display:block; width:245px; }
-		#docs-sidemenu.scrolling { overflow-y:scroll; bottom:0; top:123px; position:fixed; left:0; }
-		#docs-sidemenu.scrolling-big { bottom:0; top:123px; position:fixed; left:0; }
-		#docs-sidemenu.stay { bottom:0; top:auto; position:absolute; left:0!important; }
-		#docs-sidemenu.stay-big { bottom:auto; top:123px; position:absolute; left:0!important; }
-		#docs-sidemenu li { display:block; width:245px; }
-			#docs-sidemenu.scrolling li { width:100%; }	
-			#docs-sidemenu li a:hover, #docs-sidemenu li.current>a { font-weight:bold; }
-			#docs-sidemenu li.li1>a { background:#dcedf4; line-height:29px; display:block; margin-bottom:8px; padding:0 10px; font-size:14px;
-			font-weight:bold; color:#393939; text-transform:uppercase; }
-			#docs-sidemenu li.li1>ul { margin-bottom:10px; padding-left:12px; }
-				#docs-sidemenu li.li1>ul a { color:#4d4f4f; font-size:13px; line-height:1.1em; }
-					#docs-sidemenu li.li1>ul a.cat-link { color:#3a3a3a; font-size:16px; font-weight:bold; line-height:2em; }
-				#docs-sidemenu li.li1>ul ul { }
-	
-.main { width:743px; float:right; }
-	#docs-cont .main { min-height:700px; }
-	#docs-menu { float:right; margin-right:1px; }
-		#docs-menu li { display:block; float:left; width:128px; height:69px; }
-			#docs-menu li a { display:block; width:128px; height:69px; line-height:69px; text-align:center; font-family: "FairpNarMedIta",sans-serif;
-			color:#fff; font-size:25px;
-			-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease;-ms-transition: all 300ms ease;-o-transition: all 300ms ease;transition: all 300ms ease; }
-			#docs-menu li.li1 a { background:#805875; }
-				#docs-menu li.li1 a:hover { background:#402c3a; }
-			#docs-menu li.li2 a { background:#49beb0; }
-				#docs-menu li.li2 a:hover { background:#245f58; }
-			#docs-menu li.li3 a { background:#a4a4a4; }
-				#docs-menu li.li3 a:hover, #docs-menu li.li3.on a { background:#525252; }
-			#docs-menu li.li4 a { background:#393939; }
-				#docs-menu li.li4 a:hover { background:#161616; }
-			#docs-menu li.li5 a { background:#fff; color:#a4a4a4; border:1px solid #959595; width:126px; }
-				#docs-menu li.li5 a:hover { background:#7a7a7a; color:#fff; border:1px solid #7a7a7a; }
-	
-	#docs-cont .main { padding:40px 20px; border-bottom:1px solid #c6c6c6; margin-right:3px; }
-	.doc-text { margin-bottom:30px; color:#3a3a3a; }
-		.doc-text h1 { font-size:24px; color:#3a3a3a; line-height:1.2em; margin-bottom:14px; font-weight:bold; }
-		.doc-text h2 { font-size:22px; color:#3a3a3a; line-height:1.2em; margin-bottom:14px; font-weight:bold; }
-		.doc-text h3 { font-size:18px; color:#3a3a3a; line-height:1.2em; margin-bottom:4px; font-weight:bold; }
-		.doc-text h4 { font-size:15px; color:#3a3a3a; line-height:1.2em; margin-bottom:4px; font-weight:bold; }
-		.doc-text p { font-size:14px; color:#3a3a3a; line-height:1.5em; margin-bottom:10px; }
-		.doc-text a { font-size:14px; color:#0088cc; text-decoration:underline; }
-			.doc-text a:hover { text-decoration:none; }
-		.doc-text ul, .doc-text ol { margin-bottom:10px; }
-		.doc-text li { list-style:disc; list-style-position:inside; font-size:15px; color:#3a3a3a; line-height:1.5em; }
-		.doc-text ol li { list-style:decimal; list-style-position:inside; }
-		.sep { padding-bottom:20px; border-top:1px solid #d6d6d6; margin-top:20px; }
-		.note { margin-bottom:20px; padding:9px; }
-			.note.blue { background:#dfeff5; border:1px solid #94b7c4; font-size:15px; color:#237798; }
-			.note.yellow { background:#fcf8e3; border:1px solid #dcccae; font-size:15px; color:#b38d4a; }
-
-#doumentation-bottom-bar { height:68px; background:#dcdcdc; color:#fff; overflow:hidden; position:fixed; top:90px; left:0; width:100%; }
-	.fixed-head #doumentation-bottom-bar { top:55px; }
-	#doumentation-bottom-bar h3 { position:relative; float:left; font-size:25px; font-family: "FairpNarMedIta",sans-serif; background:#b0b0b0; line-height:68px; padding:0 38px; }
-		#doumentation-bottom-bar a { margin-top:12px; display:block; line-height:46px; border-right:1px solid #c0c0c0; width:154px; float:left; text-align:center; }
-			#doumentation-bottom-bar a span { display:inline-block; padding-left:37px; line-height:30px; font-size:11px; color:#979797; }
-			.btn-1 span { background:url(../images/icon-doc1.png) left center no-repeat; }
-				.btn-1:hover span { background:url(../images/icon-doc11.png) left center no-repeat; }
-			.btn-2 span { background:url(../images/icon-doc2.png) left center no-repeat; }
-				.btn-2:hover span { background:url(../images/icon-doc21.png) left center no-repeat; }
-			.btn-3 span { background:url(../images/icon-doc3.png) left center no-repeat; }
-				.btn-3:hover span { background:url(../images/icon-doc31.png) left center no-repeat; }
-			.btn-4 span { background:url(../images/icon-doc4.png) left center no-repeat; }
-				.btn-4:hover span { background:url(../images/icon-doc41.png) left center no-repeat; }
-			#doumentation-bottom-bar a.btn-4 { border:0 none; }
-			#doumentation-bottom-bar a:hover span { color:#000; }
-
 
 
 
