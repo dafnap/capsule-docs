@@ -256,7 +256,7 @@ header { background:#222; width:100%; height:90px; position:fixed; top:0; left:0
 	 -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease;-ms-transition: all 300ms ease;-o-transition: all 300ms ease;transition: all 300ms ease; }
 		.fixed-head #logo2 { width:206px; height:40px; margin-top:8px; background-repeat:no-repeat; }
 
-	iframe { height: 28px; width: 142px; margin-top: 35px; margin-left: 135px;  }
+	iframe {  margin-top: 35px; margin-left: 135px;  }
 	#github { height: 28px; width: 142px; margin-top: 35px; margin-left: 135px }
 	header ul { float:right; margin-top:44px; }
 		.fixed-head header ul { margin-top:17px; }
@@ -367,6 +367,9 @@ header { background:#222; width:100%; height:90px; position:fixed; top:0; left:0
 /* Section10*/
 #section10 { padding:10px 0 0px; width:1400px ; margin-right: 0px; padding-top: 0px; padding-bottom: 0px; }
 	#quotes {margin-left: 80px; width: 1000px; padding-top: 10px}
+	#quotes iframe {width: 425px; height: 310px; margin-top: 20px; }
+
+
 
 /* ==========================================================================
    Inner page
