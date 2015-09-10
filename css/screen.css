@@ -286,8 +286,8 @@ header { background:#222; width:100%; height:90px; position:fixed; top:0; left:0
    ========================================================================== */
 
 /* Top Banner */
-#section1 { padding:10px 0 20px; height: 380px }
-	#banner-title img {height: 450px; width: 450px; float: right; } 
+#section1 { padding: 5px 0 10px; height: 380px }
+	#banner-title img {height: 430px; width: 430px; float: right; } 
 	#banner-title h1 { padding-top: 110px; font-size:170px; color:#b26d07; line-height:1em; padding-bottom:18px; margin-bottom:20px;
 		 font-family: "FairpNarMedIta",sans-serif; font-style: normal; font-weight: 500; text-align: left; }
 	#banner-title p {padding-left: 80px; font-size: 27px; color:#cac1bb; text-align: left; font-weight: 500}
@@ -296,9 +296,24 @@ header { background:#222; width:100%; height:90px; position:fixed; top:0; left:0
 	.wrapit { height:800px; width:1000px; position:absolute; bottom:45px; left:0; }
 	.fixed .wrapit { position:fixed; top:90px; left:50%; margin-left:-500px; }
 
+/* Section2 */
+
+#section2 { padding:50px 0 70px; background-color: #575456; }
+	#intro2 { width:600px; }
+		#intro2 h3 { font-size:24px; color:#222; line-height:0.5em; padding-bottom:18px; border-bottom:1px solid #222; margin-bottom:20px;
+		 font-family: "mic-32-new-web-n5","mic-32-new-web",sans-serif; font-style: normal; font-weight: 50; }
+		#intro2 p { font-size:16px; margin-bottom:15px; color:#cbbdad;}
+		#intro2 li {font-size:16px; margin-bottom:15px; color:#cbbdad;}
+	.col4 { width:33.33333333%; float:left; padding:0 50px; }
+	.box-col { height: 266px }
+		.box-col h3 { margin-bottom:0px; font-size:18px; color:#b26d07; font-weight:normal;  line-height:1.4em; font-family: "mic-32-new-web-n5","mic-32-new-web",sans-serif; }
+		.box-col p { font-size:14px; line-height:1.5em; margin:0;  color:#cbbdad}
+
+
+
 
 /* Section3 */
-#section3 { padding:100px 0 0px; background-color: #cbbdad; }
+#section3 { padding:50px 0 0px; background-color: #cbbdad; }
 	#intro { width:600px; }
 		#intro h3 { font-size:24px; color:#222; line-height:0.5em; padding-bottom:18px; border-bottom:1px solid #222; margin-bottom:20px;
 		 font-family: "mic-32-new-web-n5","mic-32-new-web",sans-serif; font-style: normal; font-weight: 50; text-wrap: normal;}
