@@ -305,7 +305,7 @@ header { background:#222; width:100%; height:90px; position:fixed; top:0; left:0
 		#intro2 p { font-size:16px; margin-bottom:15px; color:#cbbdad;}
 		#intro2 li {font-size:16px; margin-bottom:15px; color:#cbbdad;}
 	.col4 { width:33.33333333%; float:left; padding:0 50px; }
-	.box-col { height: 266px }
+	.box-col { height: 200px }
 		.box-col h3 { margin-bottom:0px; font-size:18px; color:#b26d07; font-weight:normal;  line-height:1.4em; font-family: "mic-32-new-web-n5","mic-32-new-web",sans-serif; }
 		.box-col p { font-size:14px; line-height:1.5em; margin:0;  color:#cbbdad}
 
